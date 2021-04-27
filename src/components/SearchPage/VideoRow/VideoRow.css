@@ -1,0 +1,43 @@
+.videoRow {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videoRow > img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+    cursor: pointer;
+}
+
+.videoRow__text {
+    margin-left: 14px;
+}
+.videoRow__text > h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.videoRow__description {
+    color: #606060;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.videoRow__headline {
+    color: #606060;
+    font-size: 12px;
+
+}
+
+.videoRow__subsNumber {
+    color: rgb(84, 157, 211);
+    font-weight: bolder;
+
+}
+
+.videoRow__subs {
+    background-color: lightgray;
+    margin: 2px;
+}
